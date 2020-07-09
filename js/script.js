@@ -11,7 +11,7 @@ while (numCasuali.length < 5) {
 console.log(numCasuali);
 
 alert("ricorda i seguenti numeri: " + numCasuali);
-var timer = setTimeout(verificaNumeri(arrayNumUtente,numCasuali),3000);
+var timer = setTimeout(verificaNumeri(arrayNumUtente,numCasuali),30000);
 // {
   // while (arrayNumUtente.length < numCasuali.length) {
   //   var numUtente = prompt("inserire uno alla volta i numeri letti");
